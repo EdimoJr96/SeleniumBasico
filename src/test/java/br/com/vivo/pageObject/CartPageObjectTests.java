@@ -33,7 +33,7 @@ public class CartPageObjectTests {
     }
 
     @Test
-    public void CT1testCreateCart(){
+    public void CT01_testCreateCart(){
         PageHome paginaHome = new PageHome(driver);
         PageCelulares paginaCelulares = new PageCelulares(driver);
         PageProdutos paginaProduto = new PageProdutos(driver);
@@ -55,7 +55,7 @@ public class CartPageObjectTests {
     }
 
     @Test
-    public void CT2cadastroDeUmCliente(){
+    public void CT02_cadastroDeUmCliente(){
         PageHome paginaHome = new PageHome(driver);
         paginaHome.acessarOSite();
         paginaHome.aceitarTermosDeConsentimento();
