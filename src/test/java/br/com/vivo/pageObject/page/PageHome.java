@@ -5,7 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class PageHome extends AtributsHome {
     private WebDriver driver;
-    public void PaginaHome(WebDriver driver) {
+
+    public PageHome(WebDriver driver) {
         this.driver = driver;
     }
 

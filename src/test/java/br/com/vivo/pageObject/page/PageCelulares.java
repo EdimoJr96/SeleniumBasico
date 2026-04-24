@@ -1,4 +1,8 @@
 package br.com.vivo.pageObject.page;
 
-public class PageCelulares extends AtibutsCelulares{
+import br.com.vivo.pageObject.atributs.AtibutsCelulares;
+import br.com.vivo.pageObject.atributs.AtributsHome;
+
+public class PageCelulares extends AtibutsCelulares {
+
 }
